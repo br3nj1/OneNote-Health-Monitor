@@ -10,6 +10,24 @@ recovery, and automated section conversion.
 
 ## OneNote File Format Architecture
 
+What is the latest OneNote file format?
+As of November 2026, the latest supported notebook format is still OneNote 2010–2016 Notebook Format.
+
+Notebook format	Supported by current OneNote	Conversion needed
+
+OneNote 2003	No	Yes
+OneNote 2007	No, not as a current editable format	Yes
+OneNote 2010	Yes	No
+OneNote 2013	Yes	No
+OneNote 2016	Yes	No
+OneNote 2021	Yes	No
+OneNote 2024	Yes	No
+OneNote for Microsoft 365	Yes	No
+
+Microsoft has maintained compatibility with the 2010–2016 notebook format rather than introducing a separate 2024 or Microsoft 365 format. Microsoft Support
+
+You can use PowerShell to inspect, export, and help migrate OneNote notebooks to the latest supported file format. However, Microsoft does not provide a dedicated PowerShell cmdlet for converting notebook formats.
+
 <p align="center">
   <img src="./OneNote%20Formats.png"
        alt="Microsoft OneNote File Format Architecture"
